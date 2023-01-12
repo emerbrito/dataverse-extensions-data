@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net462;net6.0</TargetFrameworks>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!--Package dependencies are filtered by target framework-->
+		<PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" Version="1.0.26" Condition="'$(TargetFramework)' == 'net6.0'" />
+		<PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.46" Condition="'$(TargetFramework)' == 'net462'" />
+	</ItemGroup>
+
+</Project>

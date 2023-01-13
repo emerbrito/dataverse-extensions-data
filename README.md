@@ -1,6 +1,7 @@
 # EmBrito.Dataverse.Extensions.Data
 
 [![Nuget](https://img.shields.io/nuget/v/EmBrito.Dataverse.Extensions.Data)](https://www.nuget.org/packages/EmBrito.Dataverse.Extensions.Data)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/emerbrito/dataverse-extensions-data/dotnet-build.yml)
 
 Data utilities for Dateverse client applications and plugin development.
 

@@ -1,3 +1,9 @@
+# EmBrito.Dataverse.Extensions.Data
+
+![Nuget](https://img.shields.io/nuget/v/EmBrito.Dataverse.Extensions.Data)
+
+Data utilities for Dateverse client applications and plugin development.
+
 # Entity Mappings
 
 Performs data transformation between an entity (table) and a business object (such as a DTO). A common use case is when you need to map an entity to a dto, serialize and send it to an external API. In this document:

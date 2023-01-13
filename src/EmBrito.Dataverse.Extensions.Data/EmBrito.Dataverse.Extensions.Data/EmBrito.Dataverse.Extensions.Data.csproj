@@ -2,20 +2,27 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net462;net6.0</TargetFrameworks>
+		<Version>1.0.1</Version>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Authors>Emerson Brito</Authors>
 		<Owners>emerbrito</Owners>
-		<Description>This package contains a set of extensions methods and utilities for the Dateverse client and plugins, including tools for entity mappings and data transformation.</Description>
+		<Description>A convention-based entity to object mapper (table to object) plus additional data utilities for Dateverse client applications and plugins plugin development.</Description>
 		<Copyright>© Emerson Brito. All rights reserved.</Copyright>
 		<PackageProjectUrl>https://github.com/emerbrito/dataverse-extensions-data</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/emerbrito/dataverse-extensions-data</RepositoryUrl>
 		<PackageTags>dataverse;dynamics;commondataservice;cds;powerapps,powerplatform;serviceclient;sdk</PackageTags>
-		<PackageReleaseNotes>1.0.26: Initial release.</PackageReleaseNotes>
+		<PackageReleaseNotes>
+			1.0.1:
+			  Project description and documentation update.
+			1.0.0: 
+			  Initial release.
+		</PackageReleaseNotes>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageReadmeFile>nuget-readme.md</PackageReadmeFile>
+		<AssemblyVersion></AssemblyVersion>
 	</PropertyGroup>
 
 	<ItemGroup>

@@ -1,6 +1,6 @@
 # EmBrito.Dataverse.Extensions.Data
 
-![Nuget](https://img.shields.io/nuget/v/EmBrito.Dataverse.Extensions.Data)
+[![Nuget](https://img.shields.io/nuget/v/EmBrito.Dataverse.Extensions.Data)](https://www.nuget.org/packages/EmBrito.Dataverse.Extensions.Data)
 
 Data utilities for Dateverse client applications and plugin development.
 

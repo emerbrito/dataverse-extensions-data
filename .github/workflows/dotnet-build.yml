@@ -19,7 +19,8 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: src/EmBrito.Dataverse.Extensions.Data
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build EmBrito.Dataverse.Extensions.Data.sln --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal

@@ -21,6 +21,6 @@ jobs:
       run: dotnet restore
       working-directory: src/EmBrito.Dataverse.Extensions.Data
     - name: Build
-      run: dotnet src/EmBrito.Dataverse.Extensions.Data/build EmBrito.Dataverse.Extensions.Data.sln --configuration Release --no-restore
+      run: dotnet build src/EmBrito.Dataverse.Extensions.Data/build EmBrito.Dataverse.Extensions.Data.sln --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal

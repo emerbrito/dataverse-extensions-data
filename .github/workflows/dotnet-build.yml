@@ -10,6 +10,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src/EmBrito.Dataverse.Extensions.Data
 
     steps:
     - uses: actions/checkout@v3
@@ -18,9 +21,8 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore
-      working-directory: src/EmBrito.Dataverse.Extensions.Data
+      run: dotnet restore      
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build EmBrito.Dataverse.Extensions.Data.sln --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
